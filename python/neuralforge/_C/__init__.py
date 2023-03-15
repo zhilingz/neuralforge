@@ -1,0 +1,1 @@
+"""C extension bindings (stub)."""

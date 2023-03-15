@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralforge"
+version = "0.9.0"
+description = "A deep learning framework for research and production"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "NeuralForge Team", email = "team@neuralforge.dev"}]
+dependencies = ["numpy>=1.21.0", "typing-extensions>=4.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.3.0", "bandit>=1.7.0"]
+cuda = ["nvidia-cuda-runtime-cu12"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

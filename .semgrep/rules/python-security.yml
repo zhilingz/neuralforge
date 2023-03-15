@@ -1,0 +1,45 @@
+rules:
+  - id: detect-eval
+    patterns:
+      - pattern: eval(...)
+    message: Use of eval() detected
+    severity: ERROR
+    languages: [python]
+  - id: detect-exec
+    patterns:
+      - pattern: exec(...)
+    message: Use of exec() detected
+    severity: ERROR
+    languages: [python]
+  - id: detect-subprocess-shell
+    patterns:
+      - pattern: subprocess.call(..., shell=True, ...)
+      - pattern: subprocess.run(..., shell=True, ...)
+      - pattern: subprocess.Popen(..., shell=True, ...)
+    message: Shell injection risk
+    severity: WARNING
+    languages: [python]
+  - id: detect-pickle-load
+    patterns:
+      - pattern: pickle.load(...)
+      - pattern: pickle.loads(...)
+    message: Unsafe deserialization with pickle
+    severity: WARNING
+    languages: [python]
+  - id: detect-requests-no-verify
+    patterns:
+      - pattern: requests.get(..., verify=False, ...)
+      - pattern: requests.post(..., verify=False, ...)
+    message: SSL verification disabled
+    severity: WARNING
+    languages: [python]
+  - id: detect-hardcoded-secret
+    patterns:
+      - pattern: |
+          $KEY = "..."
+    metavariable-regex:
+      metavariable: $KEY
+      regex: '(?i)(password|secret|api_key|token)'
+    message: Potential hardcoded secret
+    severity: ERROR
+    languages: [python]

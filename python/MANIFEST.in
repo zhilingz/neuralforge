@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include neuralforge *.py *.pyi

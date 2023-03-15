@@ -1,0 +1,34 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10', '3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e python/[dev]
+      - run: ruff check python/
+      - run: bandit -r python/neuralforge/ -c .bandit
+      - run: pytest python/tests/ -v
+  javascript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: cd js && npm ci
+      - run: cd js && npm run lint
+      - run: cd js && npm run test
+      - run: cd js && npm audit
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: returntocorp/semgrep-action@v1
+        with:
+          config: .semgrep/

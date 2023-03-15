@@ -1,0 +1,35 @@
+rules:
+  - id: detect-eval-expression
+    patterns:
+      - pattern: eval(...)
+    message: eval() with expression detected
+    severity: ERROR
+    languages: [javascript, typescript]
+  - id: detect-child-process
+    patterns:
+      - pattern: require('child_process')
+      - pattern: import ... from 'child_process'
+    message: child_process usage detected
+    severity: WARNING
+    languages: [javascript, typescript]
+  - id: detect-non-literal-require
+    patterns:
+      - pattern: require($X)
+    metavariable-pattern:
+      metavariable: $X
+      pattern-not: "..."
+    message: Non-literal require detected
+    severity: WARNING
+    languages: [javascript, typescript]
+  - id: detect-prototype-pollution
+    patterns:
+      - pattern: $OBJ[$KEY] = ...
+    message: Potential prototype pollution
+    severity: WARNING
+    languages: [javascript, typescript]
+  - id: detect-dangerous-html
+    patterns:
+      - pattern: dangerouslySetInnerHTML={...}
+    message: Dangerous HTML injection
+    severity: WARNING
+    languages: [javascript, typescript]
