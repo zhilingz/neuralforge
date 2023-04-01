@@ -1,1 +1,1 @@
-commit 12: feat(optim): implement optimizer base
+commit 13: feat(optim): add SGD and Adam
