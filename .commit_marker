@@ -1,1 +1,1 @@
-commit 18: feat(cuda): CUDA stream management
+commit 19: feat(serialization): model save/load
