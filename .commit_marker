@@ -1,1 +1,1 @@
-commit 23: feat(csrc): C++ tensor implementation
+commit 24: feat(csrc): autograd engine in C++
