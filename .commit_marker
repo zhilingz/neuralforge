@@ -1,1 +1,1 @@
-commit 24: feat(csrc): autograd engine in C++
+commit 25: feat(csrc): CUDA kernels
