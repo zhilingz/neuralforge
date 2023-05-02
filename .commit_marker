@@ -1,2 +1,2 @@
-fix(core): handle empty tensor shape
-2023-05-01 12:00:00
+refactor(nn): simplify Module.parameters()
+2023-05-02 09:00:00
