@@ -1,2 +1,2 @@
-refactor(nn): simplify Module.parameters()
-2023-05-02 09:00:00
+fix(optim): correct weight decay in AdamW
+2023-05-03 05:00:00
