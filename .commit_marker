@@ -1,2 +1,2 @@
-perf(core): vectorize tensor ops
-2023-05-07 18:00:00
+refactor(optim): extract common step logic
+2023-05-07 19:00:00
