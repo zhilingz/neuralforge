@@ -1,2 +1,2 @@
-fix(serialization): handle missing keys
-2023-05-07 07:00:00
+perf(core): vectorize tensor ops
+2023-05-07 18:00:00
