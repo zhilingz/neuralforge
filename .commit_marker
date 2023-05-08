@@ -1,2 +1,2 @@
-fix(js/core): correct WebGL buffer binding
-2023-05-08 07:00:00
+feat(js/dashboard): add loss curve smoothing
+2023-05-08 12:00:00
