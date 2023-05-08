@@ -1,2 +1,2 @@
-refactor(optim): extract common step logic
-2023-05-07 19:00:00
+fix(js/core): correct WebGL buffer binding
+2023-05-08 07:00:00
