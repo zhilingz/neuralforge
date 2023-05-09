@@ -1,2 +1,2 @@
-feat(js/dashboard): add loss curve smoothing
-2023-05-08 12:00:00
+fix(js/cli): parse negative numbers correctly
+2023-05-08 19:00:00
