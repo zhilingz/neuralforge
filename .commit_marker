@@ -1,2 +1,2 @@
-test(optim): parametrize lr tests
-2023-05-10 04:00:00
+fix(nn): gradient accumulation in LSTM
+2023-05-10 07:00:00
