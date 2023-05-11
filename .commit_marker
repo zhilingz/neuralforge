@@ -1,2 +1,2 @@
-fix(nn): gradient accumulation in LSTM
-2023-05-10 07:00:00
+perf(csrc): fuse add+relu kernel
+2023-05-10 17:00:00
