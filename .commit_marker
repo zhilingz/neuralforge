@@ -1,2 +1,2 @@
-ci: add npm audit to CI
-2023-05-14 18:00:00
+fix(js/hub): handle auth token refresh
+2023-05-15 17:00:00
