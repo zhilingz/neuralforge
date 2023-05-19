@@ -1,2 +1,2 @@
-docs: add distributed training tutorial
-2023-05-19 09:00:00
+fix(cuda): synchronize before deallocation
+2023-05-19 14:00:00
