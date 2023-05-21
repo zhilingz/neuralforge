@@ -1,2 +1,2 @@
-fix(serialization): preserve tensor metadata
-2023-05-20 22:00:00
+test(serialization): round-trip tests
+2023-05-21 02:00:00
