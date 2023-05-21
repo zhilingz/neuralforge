@@ -1,2 +1,2 @@
-refactor(hub): async download pipeline
-2023-05-20 14:00:00
+fix(serialization): preserve tensor metadata
+2023-05-20 22:00:00
