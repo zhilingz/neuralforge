@@ -1,2 +1,2 @@
-chore: add type stubs for C extensions
-2023-05-22 00:00:00
+fix(js/dashboard): WebSocket reconnection
+2023-05-22 11:00:00
