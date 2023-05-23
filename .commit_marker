@@ -1,2 +1,2 @@
-fix(js/dashboard): WebSocket reconnection
-2023-05-22 11:00:00
+feat(optim): add cosine annealing scheduler
+2023-05-23 00:00:00
