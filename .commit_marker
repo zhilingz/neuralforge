@@ -1,2 +1,2 @@
-fix(profiler): thread-safe trace export
-2023-05-23 18:00:00
+refactor(utils): consolidate config loading
+2023-05-24 09:00:00
