@@ -1,2 +1,2 @@
-test(hub): mock network calls
-2023-05-24 13:00:00
+ci: run security scan on PRs
+2023-05-25 01:00:00
