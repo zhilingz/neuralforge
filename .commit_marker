@@ -1,2 +1,2 @@
-fix(core): integer overflow in numel
-2023-05-25 15:00:00
+perf(distributed): overlap allreduce with compute
+2023-05-26 08:00:00
