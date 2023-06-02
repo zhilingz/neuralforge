@@ -1,2 +1,2 @@
-perf(core): contiguous memory layout
-2023-06-02 07:00:00
+refactor(csrc): modernize CMake config
+2023-06-02 08:00:00
