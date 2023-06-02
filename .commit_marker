@@ -1,2 +1,2 @@
-fix(nn): numerical stability in softmax
-2023-06-02 03:00:00
+perf(core): contiguous memory layout
+2023-06-02 07:00:00
