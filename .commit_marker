@@ -1,2 +1,2 @@
-test(cuda): add stream sync tests
-2023-06-02 23:00:00
+fix(distributed): deadlock in barrier
+2023-06-03 11:00:00
