@@ -1,2 +1,2 @@
-refactor(csrc): modernize CMake config
-2023-06-02 08:00:00
+test(cuda): add stream sync tests
+2023-06-02 23:00:00
