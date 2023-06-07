@@ -1,2 +1,2 @@
-refactor(js/cli): command plugin system
-2023-06-06 20:00:00
+ci: add Python 3.12 to test matrix
+2023-06-07 07:00:00
