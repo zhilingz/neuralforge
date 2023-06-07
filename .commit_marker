@@ -1,2 +1,2 @@
-fix(js/dashboard): chart rendering on resize
-2023-06-06 15:00:00
+refactor(js/cli): command plugin system
+2023-06-06 20:00:00
