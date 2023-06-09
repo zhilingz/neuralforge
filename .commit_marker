@@ -1,2 +1,2 @@
-fix(core): copy semantics for detach
-2023-06-08 08:00:00
+perf(nn): lazy parameter initialization
+2023-06-08 20:00:00
