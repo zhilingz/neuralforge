@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "neuralforge"
+name = "neuralforge-ml"
 version = "0.9.0"
 description = "A deep learning framework for research and production"
 readme = "README.md"
