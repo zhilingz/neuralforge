@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "neuralforge-ml"
-version = "0.9.8"
+version = "0.9.9"
 description = "A deep learning framework for research and production"
 readme = "README.md"
 license = {text = "MIT"}

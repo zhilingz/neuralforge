@@ -1,6 +1,6 @@
 {
   "name": "@neuralforge/core",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "description": "ML inference SDK for JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
